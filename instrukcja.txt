@@ -1,0 +1,5 @@
+[alfa]
+Główna pętla programu znajduje się w pliku main.cpp
+Na razie działa jednie tworzenie planszy o zadanym w kodzie rozmiarze, wypisanie tej planszy oraz premieszczenie piona poprzez wpisanie ich położenia na planszy w układzie wiersze kolumny(numery zaczynają się od lewego gónego rgu od 1)
+[beta]
+Dodanie sprawdzania poprawności ruchów oraz funkcji odpowiadających za bicie.
