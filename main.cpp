@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include <plansza.cpp>
 #include <QApplication>
 
 int main(int argc, char *argv[])

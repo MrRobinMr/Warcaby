@@ -40,6 +40,9 @@ class Plansza{
                 }
             }
         }
+        void wyczysc(){
+            delete this->tab;
+        }
         int convertXY(int x, int y){ //zamiana współrzędnych xy na numer obiektu w tablicy
             return (x*this->a+y);
         }
