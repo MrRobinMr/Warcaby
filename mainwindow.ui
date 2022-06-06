@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1057</width>
-    <height>686</height>
+    <width>856</width>
+    <height>991</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,331 +18,1533 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>20</y>
-      <width>604</width>
-      <height>621</height>
+      <y>17</y>
+      <width>801</width>
+      <height>911</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="4" column="3">
-      <widget class="QGraphicsView" name="graphicsView_36">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="7">
-      <widget class="QGraphicsView" name="graphicsView_56">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="5">
-      <widget class="QGraphicsView" name="graphicsView_30"/>
-     </item>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetFixedSize</enum>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item row="2" column="2">
-      <widget class="QGraphicsView" name="graphicsView_19"/>
+      <widget class="QGraphicsView" name="p19">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="0" column="4">
-      <widget class="QGraphicsView" name="graphicsView_5"/>
+     <item row="3" column="1">
+      <widget class="QGraphicsView" name="p26">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="4" column="5">
-      <widget class="QGraphicsView" name="graphicsView_38">
+     <item row="7" column="4">
+      <widget class="QGraphicsView" name="p61">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="5">
-      <widget class="QGraphicsView" name="graphicsView_14"/>
-     </item>
-     <item row="3" column="4">
-      <widget class="QGraphicsView" name="graphicsView_29">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+     <item row="3" column="3">
+      <widget class="QGraphicsView" name="p28">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
-      <widget class="QGraphicsView" name="graphicsView_41">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+     <item row="2" column="6">
+      <widget class="QGraphicsView" name="p23">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
       </widget>
      </item>
-     <item row="2" column="5">
-      <widget class="QGraphicsView" name="graphicsView_22">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+     <item row="7" column="3">
+      <widget class="QGraphicsView" name="p60">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QGraphicsView" name="p49">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QGraphicsView" name="p10">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
       </widget>
      </item>
      <item row="5" column="6">
-      <widget class="QGraphicsView" name="graphicsView_47">
+      <widget class="QGraphicsView" name="p47">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
-     </item>
-     <item row="6" column="5">
-      <widget class="QGraphicsView" name="graphicsView_54">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="7">
-      <widget class="QGraphicsView" name="graphicsView_48"/>
      </item>
      <item row="4" column="2">
-      <widget class="QGraphicsView" name="graphicsView_35"/>
+      <widget class="QGraphicsView" name="p35">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QGraphicsView" name="graphicsView_9">
+     <item row="7" column="2">
+      <widget class="QGraphicsView" name="p59">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
-     </item>
-     <item row="2" column="4">
-      <widget class="QGraphicsView" name="graphicsView_21"/>
      </item>
      <item row="2" column="7">
-      <widget class="QGraphicsView" name="graphicsView_24">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+      <widget class="QGraphicsView" name="p24">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="4" column="6">
-      <widget class="QGraphicsView" name="graphicsView_39"/>
-     </item>
-     <item row="2" column="3">
-      <widget class="QGraphicsView" name="graphicsView_20">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="5" column="2">
-      <widget class="QGraphicsView" name="graphicsView_43">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="6" column="4">
-      <widget class="QGraphicsView" name="graphicsView_53"/>
-     </item>
-     <item row="5" column="3">
-      <widget class="QGraphicsView" name="graphicsView_44"/>
-     </item>
-     <item row="3" column="3">
-      <widget class="QGraphicsView" name="graphicsView_28"/>
-     </item>
-     <item row="2" column="0">
-      <widget class="QGraphicsView" name="graphicsView_17"/>
-     </item>
-     <item row="2" column="6">
-      <widget class="QGraphicsView" name="graphicsView_23"/>
-     </item>
-     <item row="3" column="6">
-      <widget class="QGraphicsView" name="graphicsView_31">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QGraphicsView" name="graphicsView_33"/>
-     </item>
-     <item row="1" column="1">
-      <widget class="QGraphicsView" name="graphicsView_10"/>
-     </item>
-     <item row="4" column="4">
-      <widget class="QGraphicsView" name="graphicsView_37"/>
-     </item>
-     <item row="0" column="2">
-      <widget class="QGraphicsView" name="graphicsView_3"/>
-     </item>
-     <item row="3" column="1">
-      <widget class="QGraphicsView" name="graphicsView_26"/>
-     </item>
-     <item row="4" column="1">
-      <widget class="QGraphicsView" name="graphicsView_34">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QGraphicsView" name="graphicsView_42"/>
-     </item>
-     <item row="6" column="2">
-      <widget class="QGraphicsView" name="graphicsView_51"/>
-     </item>
-     <item row="1" column="4">
-      <widget class="QGraphicsView" name="graphicsView_13">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="QGraphicsView" name="graphicsView_27">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QGraphicsView" name="graphicsView_2">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="3">
-      <widget class="QGraphicsView" name="graphicsView_12"/>
-     </item>
-     <item row="0" column="7">
-      <widget class="QGraphicsView" name="graphicsView_8">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QGraphicsView" name="graphicsView_18">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="7">
-      <widget class="QGraphicsView" name="graphicsView_32"/>
-     </item>
-     <item row="6" column="3">
-      <widget class="QGraphicsView" name="graphicsView_52">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="5">
-      <widget class="QGraphicsView" name="graphicsView_46"/>
-     </item>
-     <item row="0" column="6">
-      <widget class="QGraphicsView" name="graphicsView_7"/>
-     </item>
-     <item row="6" column="1">
-      <widget class="QGraphicsView" name="graphicsView_50">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QGraphicsView" name="graphicsView"/>
+      <widget class="QGraphicsView" name="p1">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="1" column="2">
-      <widget class="QGraphicsView" name="graphicsView_11">
+     <item row="3" column="5">
+      <widget class="QGraphicsView" name="p30">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QGraphicsView" name="p12">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QGraphicsView" name="p27">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QGraphicsView" name="p33">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QGraphicsView" name="p52">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QGraphicsView" name="p31">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QGraphicsView" name="graphicsView_25">
+      <widget class="QGraphicsView" name="p25">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="0">
-      <widget class="QGraphicsView" name="graphicsView_49"/>
-     </item>
-     <item row="5" column="4">
-      <widget class="QGraphicsView" name="graphicsView_45">
+     <item row="1" column="2">
+      <widget class="QGraphicsView" name="p11">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="5">
-      <widget class="QGraphicsView" name="graphicsView_6">
+     <item row="6" column="1">
+      <widget class="QGraphicsView" name="p50">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="3">
-      <widget class="QGraphicsView" name="graphicsView_4">
+     <item row="4" column="1">
+      <widget class="QGraphicsView" name="p34">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="4" column="7">
-      <widget class="QGraphicsView" name="graphicsView_40">
+     <item row="1" column="0">
+      <widget class="QGraphicsView" name="p9">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+        <string notr="true">background-color: rgb(47, 0, 0);
+</string>
        </property>
       </widget>
-     </item>
-     <item row="1" column="7">
-      <widget class="QGraphicsView" name="graphicsView_16"/>
      </item>
      <item row="6" column="6">
-      <widget class="QGraphicsView" name="graphicsView_55"/>
+      <widget class="QGraphicsView" name="p55">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="1" column="6">
-      <widget class="QGraphicsView" name="graphicsView_15">
+     <item row="5" column="5">
+      <widget class="QGraphicsView" name="p46">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QGraphicsView" name="p8">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
-     <item row="7" column="0">
-      <widget class="QGraphicsView" name="graphicsView_57">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+     <item row="0" column="6">
+      <widget class="QGraphicsView" name="p7">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="7" column="1">
-      <widget class="QGraphicsView" name="graphicsView_58"/>
-     </item>
-     <item row="7" column="2">
-      <widget class="QGraphicsView" name="graphicsView_59">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
-      </widget>
-     </item>
-     <item row="7" column="3">
-      <widget class="QGraphicsView" name="graphicsView_60"/>
-     </item>
-     <item row="7" column="4">
-      <widget class="QGraphicsView" name="graphicsView_61">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>ArrowCursor</cursorShape>
        </property>
       </widget>
      </item>
      <item row="7" column="5">
-      <widget class="QGraphicsView" name="graphicsView_62"/>
+      <widget class="QGraphicsView" name="p62">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
-     <item row="7" column="6">
-      <widget class="QGraphicsView" name="graphicsView_63">
+     <item row="3" column="4">
+      <widget class="QGraphicsView" name="p29">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(47, 0, 0);</string>
        </property>
       </widget>
      </item>
      <item row="7" column="7">
-      <widget class="QGraphicsView" name="graphicsView_64"/>
+      <widget class="QGraphicsView" name="p64">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QGraphicsView" name="p37">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QGraphicsView" name="p54">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QGraphicsView" name="p56">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QGraphicsView" name="p38">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QGraphicsView" name="p43">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QGraphicsView" name="p14">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QGraphicsView" name="p45">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QGraphicsView" name="p53">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QGraphicsView" name="p40">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QGraphicsView" name="p57">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QGraphicsView" name="p58">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QGraphicsView" name="p51">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QGraphicsView" name="p48">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QGraphicsView" name="p18">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QGraphicsView" name="p4">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QGraphicsView" name="p2">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QGraphicsView" name="p41">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QGraphicsView" name="p22">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QGraphicsView" name="p21">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QGraphicsView" name="p42">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QGraphicsView" name="p32">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QGraphicsView" name="p3">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QGraphicsView" name="p63">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QGraphicsView" name="p15">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+       <property name="sceneRect">
+        <rectf>
+         <x>0.000000000000000</x>
+         <y>0.000000000000000</y>
+         <width>0.000000000000000</width>
+         <height>0.000000000000000</height>
+        </rectf>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QGraphicsView" name="p36">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QGraphicsView" name="p6">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QGraphicsView" name="p39">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QGraphicsView" name="p5">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QGraphicsView" name="p20">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QGraphicsView" name="p13">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QGraphicsView" name="p16">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QGraphicsView" name="p44">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QGraphicsView" name="p17">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -352,7 +1554,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1057</width>
+     <width>856</width>
      <height>21</height>
     </rect>
    </property>

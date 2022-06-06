@@ -9,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     p = new Plansza(8);
+
 }
 MainWindow::~MainWindow()
 {
@@ -16,4 +17,11 @@ MainWindow::~MainWindow()
     delete p;
     delete ui;
 }
+/*void MainWindow::narysujPionki(){
+    for(int i=1;i<8+1;i++){
+        for(int j=1;j<8+1;j++){
+
+        }
+    }
+}*/
 

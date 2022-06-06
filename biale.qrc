@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/pionki">
+        <file>biale.png</file>
+        <file>czarne.png</file>
+    </qresource>
+</RCC>

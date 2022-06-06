@@ -19,5 +19,6 @@ public:
 private:
     Ui::MainWindow *ui;
     Plansza *p;
+    //void narysujPionki();
 };
 #endif // MAINWINDOW_H

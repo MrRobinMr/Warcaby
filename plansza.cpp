@@ -41,7 +41,7 @@ class Plansza{
             }
         }
         void wyczysc(){
-            delete this->tab;
+            delete[] this->tab;
         }
         int convertXY(int x, int y){ //zamiana współrzędnych xy na numer obiektu w tablicy
             return (x*this->a+y);
@@ -146,6 +146,9 @@ class Plansza{
         }
         int getCzarne(){
             return this->czarne;
+        }
+        char pion(int a){
+            return this->tab[a].getPion();
         }
         void ruch(char k){
             if(k == 'b'){
