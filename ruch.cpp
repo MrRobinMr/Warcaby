@@ -3,10 +3,10 @@
 class Ruch{ //klasa odpowiadająca za kontrole pól i pionów w czasie ruchu
 private:
     char k;
-    int x1; //1 odpowiada za adres z wybranego pola a 2 odpowiada za adres gdzie ma być wykonany ruch
-    int y1;
-    int x2;
-    int y2;
+    int x1='0'; //1 odpowiada za adres z wybranego pola a 2 odpowiada za adres gdzie ma być wykonany ruch
+    int y1='0';
+    int x2='0';
+    int y2='0';
 public:
     Ruch(char k){
         this->k=k;

@@ -8,13 +8,12 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    p = new Plansza(8);
+    this->p = new Plansza(8);
 
 }
 MainWindow::~MainWindow()
 {
-    p->wyczysc();
-    delete p;
+    delete this->p;
     delete ui;
 }
 /*void MainWindow::narysujPionki(){

@@ -7,7 +7,7 @@
 class Plansza{
     private:
         Pole* tab;
-        int a;
+        int a=0;
         //zmienne zliczajace iczb pionow pozostalych na planszy
         int biale = 1;
         int czarne = 1;
@@ -40,7 +40,7 @@ class Plansza{
                 }
             }
         }
-        void wyczysc(){
+        ~Plansza(){
             delete[] this->tab;
         }
         int convertXY(int x, int y){ //zamiana współrzędnych xy na numer obiektu w tablicy
