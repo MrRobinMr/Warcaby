@@ -6,12 +6,12 @@
 
 class Plansza{
     private:
-        Pole* tab;
         int a=0;
         //zmienne zliczajace iczb pionow pozostalych na planszy
         int biale = 1;
         int czarne = 1;
     public:
+        Pole* tab;
         Plansza(int a){
             //tworzenie planszy o boku a
             this->a=a;

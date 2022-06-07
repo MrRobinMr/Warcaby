@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <plansza.cpp>
+#include <typeinfo>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +20,6 @@ public:
 private:
     Ui::MainWindow *ui;
     Plansza *p;
-    //void narysujPionki();
+    void narysujPionki();
 };
 #endif // MAINWINDOW_H
