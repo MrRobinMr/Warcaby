@@ -5,6 +5,7 @@
 #include <plansza.cpp>
 #include <typeinfo>
 #include <QGraphicsView>
+#include <QWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,7 +22,7 @@ public:
 private:
     Ui::MainWindow *ui;
     Plansza *p;
-    QList<QGraphicsView *> tabb;
+    QList<QWidget *> lista;
     void narysujPionki();
 };
 #endif // MAINWINDOW_H
